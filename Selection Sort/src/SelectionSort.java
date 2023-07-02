@@ -1,7 +1,6 @@
-import java.io.*;
 import java.util.*;
 public class SelectionSort {
-    void selectionsort(int a[],int n)
+    void selection_sort(int [] a,int n)
     {
         int i,j,temp,index;
         for(i=0;i<n-1;i++)
@@ -24,7 +23,8 @@ public class SelectionSort {
     }
 
     public static void main(String[] args) {
-        int i, n, a[];
+        int i, n;
+        int [] a;
         Scanner in=new Scanner(System.in);
         System.out.println("Enter the number of elements: ");
         n=in.nextInt();
@@ -40,7 +40,7 @@ public class SelectionSort {
         System.out.println();
         double startTime = System.currentTimeMillis();
         SelectionSort s = new SelectionSort();
-        s.selectionsort(a,n);
+        s.selection_sort(a,n);
         double stopTime = System.currentTimeMillis();
         double elapsedTime = stopTime - startTime;
         System.out.println("Sorted array: ");
