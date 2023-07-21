@@ -87,5 +87,6 @@ public class Knapsack {
         System.out.println("Details after sorting items based on profit/weight ratio in descending order: ");
         display(w,p,ratio,n);
         knapsack(u,n,w,p);
+        System.out.println("**********************************");
     }
 }
