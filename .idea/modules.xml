@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Data Structures and Algorithms.iml" filepath="$PROJECT_DIR$/.idea/Data Structures and Algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dijkstra/Dijkstra.iml" filepath="$PROJECT_DIR$/Dijkstra/Dijkstra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Floyds/Floyds.iml" filepath="$PROJECT_DIR$/Floyds/Floyds.iml" />
       <module fileurl="file://$PROJECT_DIR$/Greedy Knapsack/Greedy Knapsack.iml" filepath="$PROJECT_DIR$/Greedy Knapsack/Greedy Knapsack.iml" />
       <module fileurl="file://$PROJECT_DIR$/Kruskals/Kruskals.iml" filepath="$PROJECT_DIR$/Kruskals/Kruskals.iml" />
       <module fileurl="file://$PROJECT_DIR$/Linked Lists/Linked Lists.iml" filepath="$PROJECT_DIR$/Linked Lists/Linked Lists.iml" />
