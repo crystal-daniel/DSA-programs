@@ -6,7 +6,7 @@ public class Main {
     void display()
     {
         if(size==0)
-            System.out.println("Array si empty");
+            System.out.println("Array is empty");
         else {
             for (int i = 0; i < size; i++) {
                 System.out.print(a[i] + "\t");
