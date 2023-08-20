@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Data Structures and Algorithms.iml" filepath="$PROJECT_DIR$/.idea/Data Structures and Algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dijkstra/Dijkstra.iml" filepath="$PROJECT_DIR$/Dijkstra/Dijkstra.iml" />
       <module fileurl="file://$PROJECT_DIR$/Floyds/Floyds.iml" filepath="$PROJECT_DIR$/Floyds/Floyds.iml" />
