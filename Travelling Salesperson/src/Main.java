@@ -36,7 +36,7 @@ public class Main {
         for(i=1;i<=n;i++)
             System.out.print(tour[i]+" --> ");
         System.out.println("1");
-        System.out.println("The accurate mincost is: "+cost);
+        System.out.println("The accurate minimum cost is: "+cost);
     }
     static int tspdp(int [][] c,int [] tour,int start,int n)
     {
