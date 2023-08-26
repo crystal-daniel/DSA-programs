@@ -31,11 +31,11 @@ public class Main
     }
     static void displayInfo(int m,int n,int [] w,int [] p)
     {
-        System.out.println("entered info about knapsack problem");
+        System.out.println("Entered info about knapsack problem");
         System.out.println("ITEM\tWEIGHT\tPROFIT");
         for(int i=1;i<=n;i++)
             System.out.println(i+"\t"+w[i]+"\t"+p[i]);
-        System.out.println("capacity="+m);
+        System.out.println("Capacity="+m);
 
     }
     static void knapsack(int m,int n,int [] w,int [] p,int [][] v)
@@ -66,8 +66,8 @@ public class Main
             }
             i=i-1;
         }
-        System.out.println("optimal solution is"+v[n][m]);
-        System.out.println("selected items are:");
+        System.out.println("Optimal solution is"+v[n][m]);
+        System.out.println("Selected items are:");
         for( i=1;i<=n;i++)
         {
             if(x[i]==1)
