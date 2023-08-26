@@ -31,7 +31,7 @@ public class Main
     }
     static void displayInfo(int m,int n,int [] w,int [] p)
     {
-        System.out.println("Entered info about knapsack problem");
+        System.out.println("Entered info about knapsack problem:");
         System.out.println("ITEM\tWEIGHT\tPROFIT");
         for(int i=1;i<=n;i++)
             System.out.println(i+"\t"+w[i]+"\t"+p[i]);
@@ -65,7 +65,7 @@ public class Main
             }
             i=i-1;
         }
-        System.out.println("Optimal solution is"+v[n][m]);
+        System.out.println("Optimal solution is: "+v[n][m]);
         System.out.println("Selected items are:");
         for( i=1;i<=n;i++)
         {
@@ -76,7 +76,7 @@ public class Main
             }
         }
         if(item==0)
-            System.out.println("NIL\tSORRY NO ITEM CAN BE PLACED IN KNAPSACK ");
+            System.out.println("NIL\tSORRY NO ITEM CAN BE PLACED IN KNAPSACK");
         System.out.println("\n*************************");
     }
 }
