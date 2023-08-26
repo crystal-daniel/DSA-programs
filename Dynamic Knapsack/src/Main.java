@@ -36,7 +36,6 @@ public class Main
         for(int i=1;i<=n;i++)
             System.out.println(i+"\t"+w[i]+"\t"+p[i]);
         System.out.println("Capacity="+m);
-
     }
     static void knapsack(int m,int n,int [] w,int [] p,int [][] v)
     {
