@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Data Structures/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Data Structures/Arrays/Arrays.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Bubble Sort/Bubble Sort.iml" filepath="$PROJECT_DIR$/Bubble Sort/Bubble Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sorting/Bubble Sort/Bubble Sort.iml" filepath="$PROJECT_DIR$/Sorting/Bubble Sort/Bubble Sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Data Structures and Algorithms.iml" filepath="$PROJECT_DIR$/.idea/Data Structures and Algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dijkstra/Dijkstra.iml" filepath="$PROJECT_DIR$/Dijkstra/Dijkstra.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dynamic Knapsack/Dynamic Knapsack.iml" filepath="$PROJECT_DIR$/Dynamic Knapsack/Dynamic Knapsack.iml" />
@@ -16,7 +16,6 @@
       <module fileurl="file://$PROJECT_DIR$/Data Structures/Queues/Queues.iml" filepath="$PROJECT_DIR$/Data Structures/Queues/Queues.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sorting/Quick Sort/Quick Sort.iml" filepath="$PROJECT_DIR$/Sorting/Quick Sort/Quick Sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sorting/Selection Sort/Selection Sort.iml" filepath="$PROJECT_DIR$/Sorting/Selection Sort/Selection Sort.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Sorting/Sorting.iml" filepath="$PROJECT_DIR$/Sorting/Sorting.iml" />
       <module fileurl="file://$PROJECT_DIR$/Data Structures/Stacks/Stacks.iml" filepath="$PROJECT_DIR$/Data Structures/Stacks/Stacks.iml" />
       <module fileurl="file://$PROJECT_DIR$/Travelling Salesperson/Travelling Salesperson.iml" filepath="$PROJECT_DIR$/Travelling Salesperson/Travelling Salesperson.iml" />
     </modules>
