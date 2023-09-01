@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Data Structures/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Data Structures/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sorting/Bogo Sort/Bogo Sort.iml" filepath="$PROJECT_DIR$/Sorting/Bogo Sort/Bogo Sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sorting/Bubble Sort/Bubble Sort.iml" filepath="$PROJECT_DIR$/Sorting/Bubble Sort/Bubble Sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sorting/Comparision Counting Sort/Comparision Counting Sort.iml" filepath="$PROJECT_DIR$/Sorting/Comparision Counting Sort/Comparision Counting Sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Data Structures and Algorithms.iml" filepath="$PROJECT_DIR$/.idea/Data Structures and Algorithms.iml" />
@@ -11,10 +12,10 @@
       <module fileurl="file://$PROJECT_DIR$/Dynamic Knapsack/Dynamic Knapsack.iml" filepath="$PROJECT_DIR$/Dynamic Knapsack/Dynamic Knapsack.iml" />
       <module fileurl="file://$PROJECT_DIR$/Floyds/Floyds.iml" filepath="$PROJECT_DIR$/Floyds/Floyds.iml" />
       <module fileurl="file://$PROJECT_DIR$/Greedy Knapsack/Greedy Knapsack.iml" filepath="$PROJECT_DIR$/Greedy Knapsack/Greedy Knapsack.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Minimum Spanning tree/Kruskals/Kruskals.iml" filepath="$PROJECT_DIR$/Minimum Spanning tree/Kruskals/Kruskals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Minimum Spanning Tree/Kruskals/Kruskals.iml" filepath="$PROJECT_DIR$/Minimum Spanning Tree/Kruskals/Kruskals.iml" />
       <module fileurl="file://$PROJECT_DIR$/Data Structures/Linked Lists/Linked Lists.iml" filepath="$PROJECT_DIR$/Data Structures/Linked Lists/Linked Lists.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sorting/Merge Sort/Merge Sort.iml" filepath="$PROJECT_DIR$/Sorting/Merge Sort/Merge Sort.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Minimum Spanning tree/Prims/Prims.iml" filepath="$PROJECT_DIR$/Minimum Spanning tree/Prims/Prims.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Minimum Spanning Tree/Prims/Prims.iml" filepath="$PROJECT_DIR$/Minimum Spanning Tree/Prims/Prims.iml" />
       <module fileurl="file://$PROJECT_DIR$/Data Structures/Queues/Queues.iml" filepath="$PROJECT_DIR$/Data Structures/Queues/Queues.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sorting/Quick Sort/Quick Sort.iml" filepath="$PROJECT_DIR$/Sorting/Quick Sort/Quick Sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sorting/Selection Sort/Selection Sort.iml" filepath="$PROJECT_DIR$/Sorting/Selection Sort/Selection Sort.iml" />
