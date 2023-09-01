@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Data Structures/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Data Structures/Arrays/Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sorting/Bubble Sort/Bubble Sort.iml" filepath="$PROJECT_DIR$/Sorting/Bubble Sort/Bubble Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sorting/Comparision Counting Sort/Comparision Counting Sort.iml" filepath="$PROJECT_DIR$/Sorting/Comparision Counting Sort/Comparision Counting Sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Data Structures and Algorithms.iml" filepath="$PROJECT_DIR$/.idea/Data Structures and Algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dijkstra/Dijkstra.iml" filepath="$PROJECT_DIR$/Dijkstra/Dijkstra.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dynamic Knapsack/Dynamic Knapsack.iml" filepath="$PROJECT_DIR$/Dynamic Knapsack/Dynamic Knapsack.iml" />

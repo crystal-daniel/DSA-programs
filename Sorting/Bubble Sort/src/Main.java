@@ -32,8 +32,8 @@ public class Main {
         }
         System.out.println();
         double startTime = System.currentTimeMillis();
-        Main s = new Main();
-        s.bubbleSort(a,n);
+        Main obj = new Main();
+        obj.bubbleSort(a,n);
         double stopTime = System.currentTimeMillis();
         double elapsedTime = stopTime - startTime;
         System.out.println("Sorted array: ");
