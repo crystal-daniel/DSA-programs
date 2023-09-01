@@ -2,7 +2,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
-    int [] comparisionCountingSort(int [] a, int n)
+    int [] comparisonCountingSort(int [] a, int n)
     {
         int [] count = new int[n],s=new int[n];
         for (int i = 0; i < n-1; i++) {
@@ -40,7 +40,7 @@ public class Main {
         }
         System.out.println();
         Main obj = new Main();
-        a=obj.comparisionCountingSort(a,n);
+        a=obj.comparisonCountingSort(a,n);
         System.out.println("Sorted array: ");
         for (i = 0; i < n; i++) {
             System.out.print(a[i] + "\t");
