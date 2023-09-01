@@ -3,23 +3,24 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Data Structures/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Data Structures/Arrays/Arrays.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Sorting/Bogo Sort/Bogo Sort.iml" filepath="$PROJECT_DIR$/Sorting/Bogo Sort/Bogo Sort.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Sorting/Bubble Sort/Bubble Sort.iml" filepath="$PROJECT_DIR$/Sorting/Bubble Sort/Bubble Sort.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Sorting/Comparision Counting Sort/Comparision Counting Sort.iml" filepath="$PROJECT_DIR$/Sorting/Comparision Counting Sort/Comparision Counting Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Searching Algorithms/Binary Search/Binary Search.iml" filepath="$PROJECT_DIR$/Searching Algorithms/Binary Search/Binary Search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sorting Algorithms/Bogo Sort/Bogo Sort.iml" filepath="$PROJECT_DIR$/Sorting Algorithms/Bogo Sort/Bogo Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sorting Algorithms/Bubble Sort/Bubble Sort.iml" filepath="$PROJECT_DIR$/Sorting Algorithms/Bubble Sort/Bubble Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sorting Algorithms/Comparision Counting Sort/Comparision Counting Sort.iml" filepath="$PROJECT_DIR$/Sorting Algorithms/Comparision Counting Sort/Comparision Counting Sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Data Structures and Algorithms.iml" filepath="$PROJECT_DIR$/.idea/Data Structures and Algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dijkstra/Dijkstra.iml" filepath="$PROJECT_DIR$/Dijkstra/Dijkstra.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Sorting/Distribution Counting Sort/Distribution Counting Sort.iml" filepath="$PROJECT_DIR$/Sorting/Distribution Counting Sort/Distribution Counting Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sorting Algorithms/Distribution Counting Sort/Distribution Counting Sort.iml" filepath="$PROJECT_DIR$/Sorting Algorithms/Distribution Counting Sort/Distribution Counting Sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dynamic Knapsack/Dynamic Knapsack.iml" filepath="$PROJECT_DIR$/Dynamic Knapsack/Dynamic Knapsack.iml" />
       <module fileurl="file://$PROJECT_DIR$/Floyds/Floyds.iml" filepath="$PROJECT_DIR$/Floyds/Floyds.iml" />
       <module fileurl="file://$PROJECT_DIR$/Greedy Knapsack/Greedy Knapsack.iml" filepath="$PROJECT_DIR$/Greedy Knapsack/Greedy Knapsack.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Minimum Spanning Tree/Kruskals/Kruskals.iml" filepath="$PROJECT_DIR$/Minimum Spanning Tree/Kruskals/Kruskals.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Linear Search/Linear Search.iml" filepath="$PROJECT_DIR$/Linear Search/Linear Search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Minimum Spanning Tree Algorithms/Kruskals/Kruskals.iml" filepath="$PROJECT_DIR$/Minimum Spanning Tree Algorithms/Kruskals/Kruskals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Searching Algorithms/Linear Search/Linear Search.iml" filepath="$PROJECT_DIR$/Searching Algorithms/Linear Search/Linear Search.iml" />
       <module fileurl="file://$PROJECT_DIR$/Data Structures/Linked Lists/Linked Lists.iml" filepath="$PROJECT_DIR$/Data Structures/Linked Lists/Linked Lists.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Sorting/Merge Sort/Merge Sort.iml" filepath="$PROJECT_DIR$/Sorting/Merge Sort/Merge Sort.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Minimum Spanning Tree/Prims/Prims.iml" filepath="$PROJECT_DIR$/Minimum Spanning Tree/Prims/Prims.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sorting Algorithms/Merge Sort/Merge Sort.iml" filepath="$PROJECT_DIR$/Sorting Algorithms/Merge Sort/Merge Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Minimum Spanning Tree Algorithms/Prims/Prims.iml" filepath="$PROJECT_DIR$/Minimum Spanning Tree Algorithms/Prims/Prims.iml" />
       <module fileurl="file://$PROJECT_DIR$/Data Structures/Queues/Queues.iml" filepath="$PROJECT_DIR$/Data Structures/Queues/Queues.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Sorting/Quick Sort/Quick Sort.iml" filepath="$PROJECT_DIR$/Sorting/Quick Sort/Quick Sort.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Sorting/Selection Sort/Selection Sort.iml" filepath="$PROJECT_DIR$/Sorting/Selection Sort/Selection Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sorting Algorithms/Quick Sort/Quick Sort.iml" filepath="$PROJECT_DIR$/Sorting Algorithms/Quick Sort/Quick Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sorting Algorithms/Selection Sort/Selection Sort.iml" filepath="$PROJECT_DIR$/Sorting Algorithms/Selection Sort/Selection Sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/Data Structures/Stacks/Stacks.iml" filepath="$PROJECT_DIR$/Data Structures/Stacks/Stacks.iml" />
       <module fileurl="file://$PROJECT_DIR$/Travelling Salesperson/Travelling Salesperson.iml" filepath="$PROJECT_DIR$/Travelling Salesperson/Travelling Salesperson.iml" />
     </modules>
