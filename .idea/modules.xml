@@ -8,11 +8,12 @@
       <module fileurl="file://$PROJECT_DIR$/Sorting Algorithms/Bubble Sort/Bubble Sort.iml" filepath="$PROJECT_DIR$/Sorting Algorithms/Bubble Sort/Bubble Sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sorting Algorithms/Comparision Counting Sort/Comparision Counting Sort.iml" filepath="$PROJECT_DIR$/Sorting Algorithms/Comparision Counting Sort/Comparision Counting Sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Data Structures and Algorithms.iml" filepath="$PROJECT_DIR$/.idea/Data Structures and Algorithms.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Dijkstra/Dijkstra.iml" filepath="$PROJECT_DIR$/Dijkstra/Dijkstra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shortest Path Algorithms/Dijkstra/Dijkstra.iml" filepath="$PROJECT_DIR$/Shortest Path Algorithms/Dijkstra/Dijkstra.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sorting Algorithms/Distribution Counting Sort/Distribution Counting Sort.iml" filepath="$PROJECT_DIR$/Sorting Algorithms/Distribution Counting Sort/Distribution Counting Sort.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Dynamic Knapsack/Dynamic Knapsack.iml" filepath="$PROJECT_DIR$/Dynamic Knapsack/Dynamic Knapsack.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Floyds/Floyds.iml" filepath="$PROJECT_DIR$/Floyds/Floyds.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Greedy Knapsack/Greedy Knapsack.iml" filepath="$PROJECT_DIR$/Greedy Knapsack/Greedy Knapsack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Problems/Dynamic Knapsack/Dynamic Knapsack.iml" filepath="$PROJECT_DIR$/Problems/Dynamic Knapsack/Dynamic Knapsack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shortest Path Algorithms/Floyds/Floyds.iml" filepath="$PROJECT_DIR$/Shortest Path Algorithms/Floyds/Floyds.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Problems/Greedy Knapsack/Greedy Knapsack.iml" filepath="$PROJECT_DIR$/Problems/Greedy Knapsack/Greedy Knapsack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Horspool/Horspool.iml" filepath="$PROJECT_DIR$/Horspool/Horspool.iml" />
       <module fileurl="file://$PROJECT_DIR$/Minimum Spanning Tree Algorithms/Kruskals/Kruskals.iml" filepath="$PROJECT_DIR$/Minimum Spanning Tree Algorithms/Kruskals/Kruskals.iml" />
       <module fileurl="file://$PROJECT_DIR$/Searching Algorithms/Linear Search/Linear Search.iml" filepath="$PROJECT_DIR$/Searching Algorithms/Linear Search/Linear Search.iml" />
       <module fileurl="file://$PROJECT_DIR$/Data Structures/Linked Lists/Linked Lists.iml" filepath="$PROJECT_DIR$/Data Structures/Linked Lists/Linked Lists.iml" />
@@ -23,7 +24,7 @@
       <module fileurl="file://$PROJECT_DIR$/Sorting Algorithms/Selection Sort/Selection Sort.iml" filepath="$PROJECT_DIR$/Sorting Algorithms/Selection Sort/Selection Sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/Data Structures/Stacks/Stacks.iml" filepath="$PROJECT_DIR$/Data Structures/Stacks/Stacks.iml" />
       <module fileurl="file://$PROJECT_DIR$/String Matching/String Matching.iml" filepath="$PROJECT_DIR$/String Matching/String Matching.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Travelling Salesperson/Travelling Salesperson.iml" filepath="$PROJECT_DIR$/Travelling Salesperson/Travelling Salesperson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Problems/Travelling Salesperson/Travelling Salesperson.iml" filepath="$PROJECT_DIR$/Problems/Travelling Salesperson/Travelling Salesperson.iml" />
     </modules>
   </component>
 </project>
