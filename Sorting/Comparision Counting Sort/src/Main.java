@@ -40,10 +40,10 @@ public class Main {
         }
         System.out.println();
         Main obj = new Main();
-        obj.comparisionCountingSort(a,n);
+        a=obj.comparisionCountingSort(a,n);
         System.out.println("Sorted array: ");
-//        for (i = 0; i < n; i++) {
-//            System.out.print(a[i] + "\t");
-//        }
+        for (i = 0; i < n; i++) {
+            System.out.print(a[i] + "\t");
+        }
     }
 }
