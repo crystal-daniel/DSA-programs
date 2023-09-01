@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class Main {
     List<Integer> bogoSort(List<Integer> a)
     {
@@ -20,7 +19,7 @@ public class Main {
     public static void main(String[] args) {
         List<Integer> a= new ArrayList<>();
         Random r=new Random();
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 7; i++) {
             a.add(r.nextInt(100));
         }
         System.out.println("Array before sorting:");
