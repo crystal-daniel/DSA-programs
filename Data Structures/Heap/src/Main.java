@@ -5,11 +5,11 @@ public class Main {
     static Scanner in = new Scanner(System.in);
     void constructHeap(int [] h)
     {
-        int k,v,j;
+        int k,u,j;
         boolean heap;
         for (int i = n/2; i > 0 ; i--) {
             k = i;
-            v = h[k];
+            u = h[k]; //parent
             heap = false;
             while(!heap && 2*k<=n)
             {
@@ -21,7 +21,7 @@ public class Main {
                         j++;
                     }
                 }
-                if(v>=h[j])
+                if(u>=h[j])
                 {
                     heap = true;
                 }
@@ -30,7 +30,7 @@ public class Main {
                     h[k] = h[j];
                     k = j;
                 }
-                h[k] = v;
+                h[k] = u;
             }
         }
     }
@@ -54,13 +54,25 @@ public class Main {
     {
         if(n==19)
         {
-            System.out.println("Heap is full");
+            System.out.println("Heap is full!");
         }
         else {
-            System.out.println("Enter the element you want to insert");
+            System.out.println("Enter the element you want to insert: ");
             h[++n] = in.nextInt();
-            System.out.println(h[n]+" inserted successfully");
-            constructHeap(h);
+            System.out.println(h[n]+" inserted successfully!");
+            int i = n;
+            while(i > 1) {
+                int u = i / 2;
+                if(h[i] > h[u])
+                {
+                    int temp = h[i];
+                    h[i] = h[u];
+                    h[u] = temp;
+                    i = u;
+                }
+                else
+                    return;
+            }
         }
     }
 
@@ -68,13 +80,25 @@ public class Main {
     {
         if(n==0)
         {
-            System.out.println("Heap is empty");
+            System.out.println("Heap is empty!");
         }
         else
         {
-            System.out.println(h[1] + " is deleted successfully");
+            System.out.println(h[1] + " is deleted successfully!");
             h[1] = h[n--];
-            constructHeap(h);
+            int i = n;
+            while(i > 1) {
+                int u = i / 2;
+                if(h[i] > h[u])
+                {
+                    int temp = h[i];
+                    h[i] = h[u];
+                    h[u] = temp;
+                    i = u;
+                }
+                else
+                    return;
+            }
         }
     }
 
