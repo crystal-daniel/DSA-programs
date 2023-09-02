@@ -86,19 +86,7 @@ public class Main {
         {
             System.out.println(h[1] + " is deleted successfully!");
             h[1] = h[n--];
-            int i = n;
-            while(i > 1) {
-                int u = i / 2;
-                if(h[i] > h[u])
-                {
-                    int temp = h[i];
-                    h[i] = h[u];
-                    h[u] = temp;
-                    i = u;
-                }
-                else
-                    return;
-            }
+            constructHeap(h);
         }
     }
 
