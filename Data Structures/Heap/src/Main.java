@@ -129,10 +129,7 @@ public class Main {
                     System.out.println("Program terminating");
                     System.exit(0);
                 }
-                case 5 -> {
-                    System.out.println("Invalid input! Program terminating.");
-                    System.exit(0);
-                }
+                case 5 -> System.out.println("Invalid input! Please enter again!");
             }
         }while(true);
     }
