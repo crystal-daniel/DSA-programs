@@ -1,5 +1,7 @@
+import java.util.Scanner;
+
 public class LinkedList {
-    Node temp, head, temp2;
+    Node temp, head, temp2, head1;
     Node create(int data) {
         Node newnode = new Node();
         newnode.prev = null;
@@ -109,5 +111,44 @@ public class LinkedList {
             temp = temp.next;
         }
         System.out.println("Data is not found in the list");
+    }
+    void concatenate()
+    {
+        Scanner in = new Scanner(System.in);
+        int n;
+        temp = head;
+        System.out.println("Enter the number of elements in second DLL: ");
+        n = in.nextInt();
+        for (int i = 0; i < n; i++) {
+            System.out.println("Enter data: ");
+            int data = in.nextInt();
+            if(head1 == null)
+            {
+                head1=create(data);
+            }
+            else
+            {
+                temp2 = head1;
+                while(temp2.next!=null)
+                {
+                    temp2 = temp2.next;
+                }
+                temp2.next = create(data);
+            }
+        }
+        temp2 = head1;
+        System.out.println("SLL 2: ");
+        while(temp2!=null)
+        {
+            System.out.print(temp2.data+"\t");
+            temp2 = temp2.next;
+        }
+        System.out.println();
+        while(temp.next!=null)
+        {
+            temp = temp.next;
+        }
+        temp.next = head1;
+        System.out.println("linked lists concatenated successfully!");
     }
 }

@@ -147,7 +147,6 @@ public class LinkedList {
             temp2 = temp2.next;
         }
         System.out.println();
-        temp = head;
         while(temp.next!=null)
         {
             temp = temp.next;
