@@ -12,8 +12,9 @@ public class Main {
         System.out.println("5. Delete at end");
         System.out.println("6. Delete at given position");
         System.out.println("7. Search any data");
-        System.out.println("8. Display");
-        System.out.println("9. Exit");
+        System.out.println("8. Concatenate two linked lists");
+        System.out.println("9. Display");
+        System.out.println("10. Exit");
 
         do {
             System.out.println("Enter your choice: ");
@@ -49,8 +50,9 @@ public class Main {
                     data = input.nextInt();
                     list.search(data);
                 }
-                case 8 -> list.display();
-                case 9 -> System.exit(0);
+                case 8 -> list.concatenate();
+                case 9 -> list.display();
+                case 10 -> System.exit(0);
                 default -> System.out.println("Invalid choice. Please enter again!");
             }
         } while (true);
