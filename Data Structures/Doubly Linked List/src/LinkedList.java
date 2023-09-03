@@ -50,7 +50,7 @@ public class LinkedList {
     void insert_at_pos(int pos, int data) {
         pos--;
         if (pos < 0)
-            System.out.println("invalid position!");
+            System.out.println("Invalid position!");
         else if (pos == 0)
             insert_at_beg(data);
         else {
