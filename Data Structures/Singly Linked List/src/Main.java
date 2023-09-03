@@ -47,12 +47,12 @@ public class Main {
                 case 7 -> {
                     System.out.println("Enter the data you want to search: ");
                     data = input.nextInt();
-                    list.insert_at_beg(data);
+                    list.search(data);
                 }
                 case 8 -> list.display();
                 case 9 -> System.exit(0);
                 default -> System.out.println("Invalid choice. Please enter again!");
             }
-        } while (ch != 9);
+        } while (true);
     }
 }

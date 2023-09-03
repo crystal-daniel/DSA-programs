@@ -1,8 +1,5 @@
-import java.util.*;
-
 public class LinkedList {
     Node head, temp, temp2;
-    Scanner input = new Scanner(System.in);
 
     Node create(int data) {
         Node newnode = new Node();
