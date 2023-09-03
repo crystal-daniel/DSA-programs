@@ -12,7 +12,7 @@ public class Main {
             switch (ch) {
                 case 1 -> {
                     if (queue.isFull())
-                        System.out.println("Queue Overflow");
+                        System.out.println("Queue Overflow!");
                     else {
                         System.out.println("Enter a number to add:");
                         n = input.nextInt();
@@ -21,13 +21,13 @@ public class Main {
                 }
                 case 2 -> {
                     if (queue.isEmpty())
-                        System.out.println("Queue underflow");
+                        System.out.println("Queue underflow!");
                     else
                         queue.dequeue();
                 }
                 case 3 -> {
                     if (queue.isEmpty())
-                        System.out.println("Queue is empty");
+                        System.out.println("Queue is empty!");
                     else
                         queue.display();
                 }

@@ -18,9 +18,11 @@ public class Queue {
           }
           else
               q[++r]=n;
+          System.out.println(n+" added successfully!");
       }
       void dequeue()
       {
+          System.out.println(q[f]+" deleted successfully!");
           if(f==r)
               f=r=-1;
           else
