@@ -13,10 +13,13 @@ public class LinkedList {
         if (temp == null)
             System.out.println("List is empty");
         else {
+            System.out.print(temp.data);
+            temp=temp.next;
             while (temp != null) {
-                System.out.println(temp.data + "\t");
+                System.out.print(" -> "+temp.data);
                 temp = temp.next;
             }
+            System.out.println();
         }
     }
 
