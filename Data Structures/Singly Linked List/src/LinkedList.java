@@ -133,7 +133,7 @@ public class LinkedList {
 
     void concatenate()
     {
-//        Scanner in = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
         int n;
         temp = head;
         System.out.println("Enter the number of elements in second SLL: ");
