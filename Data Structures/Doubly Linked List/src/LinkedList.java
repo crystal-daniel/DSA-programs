@@ -129,15 +129,15 @@ public class LinkedList {
             else
             {
                 temp2 = head1;
-                while(temp2.next!=null)
-                {
+                while (temp2.next != null) {
                     temp2 = temp2.next;
                 }
                 temp2.next = create(data);
+                temp2.next.prev = temp2;
             }
         }
         temp2 = head1;
-        System.out.println("SLL 2: ");
+        System.out.println("DLL 2: ");
         while(temp2!=null)
         {
             System.out.print(temp2.data+"\t");
@@ -149,6 +149,7 @@ public class LinkedList {
             temp = temp.next;
         }
         temp.next = head1;
+        head1.prev = temp;
         System.out.println("linked lists concatenated successfully!");
     }
 }
