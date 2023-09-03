@@ -32,6 +32,7 @@ public class LinkedList {
             temp.next = head;
         }
         head = temp;
+        System.out.println("Data inserted successfully!");
     }
 
     void insert_at_end(int data) {
@@ -45,11 +46,13 @@ public class LinkedList {
             }
             temp2.next = temp;
         }
+        System.out.println("Data inserted successfully!");
     }
 
     void insert_at_pos(int pos, int data) {
+        pos--;
         if (pos < 0)
-            System.out.println("invalid index");
+            System.out.println("Invalid position!");
         else if (pos == 0)
             insert_at_beg(data);
         else {
@@ -60,33 +63,45 @@ public class LinkedList {
             }
             temp.next = temp2.next;
             temp2.next = temp;
+            System.out.println("Data inserted successfully!");
         }
     }
 
     void delete_at_beg() {
         if (head == null)
             System.out.println("List is empty");
-        else if (head.next == null)
-            head = null;
         else {
-            head = head.next;
+            if (head.next == null)
+                head = null;
+            else {
+                head = head.next;
+            }
+            System.out.println("Data deleted successfully!");
         }
     }
 
     void delete_at_end() {
         if (head == null)
             System.out.println("List is empty");
-        else if (head.next == null)
-            head = null;
         else {
-            temp = head;
-            while (temp.next.next != null)
-                temp = temp.next;
-            temp.next = null;
+            if (head.next == null)
+                head = null;
+            else {
+                temp = head;
+                while (temp.next.next != null)
+                    temp = temp.next;
+                temp.next = null;
+            }
+            System.out.println("Data deleted successfully!");
         }
     }
 
     void delete_at_pos(int pos) {
+        pos--;
+        if(pos<0) {
+            System.out.println("Invalid position!");
+            return;
+        }
         if (head == null)
             System.out.println("List is empty");
         else if (pos == 0)
@@ -100,6 +115,7 @@ public class LinkedList {
             }
             temp2.next = temp.next;
             temp = null;
+            System.out.println("Data deleted successfully!");
         }
     }
 
@@ -117,7 +133,7 @@ public class LinkedList {
 
     void concatenate()
     {
-        Scanner in = new Scanner(System.in);
+//        Scanner in = new Scanner(System.in);
         int n;
         temp = head;
         System.out.println("Enter the number of elements in second SLL: ");

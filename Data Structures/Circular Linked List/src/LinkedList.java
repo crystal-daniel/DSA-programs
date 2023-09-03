@@ -106,6 +106,10 @@ public class LinkedList {
 
     void delete_at_pos(int pos) {
         pos--;
+        if(pos<0) {
+            System.out.println("Invalid position!");
+            return;
+        }
         if (head == null)
             System.out.println("List is empty");
         else if (pos == 0)
