@@ -35,6 +35,6 @@ public class Main {
                 case 4 -> System.exit(0);
                 default -> System.out.println("Invalid input. Please enter again!");
             }
-        }while(ch!=4);
+        }while(true);
     }
 }
