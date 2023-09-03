@@ -76,6 +76,23 @@ public class Main {
         }
     }
 
+    void maxHeapify(int [] h, int i)
+    {
+        int largest = i;
+        int l = (2*i);
+        int r = (2*i)+1;
+        if(l<=n && h[l]>h[largest])
+            largest = l;
+        if(l<=n && h[r]>h[largest])
+            largest = r;
+        if(largest!=i)
+        {
+            int temp = h[largest];
+            h[largest] = h[i];
+            h[i] = temp;
+            maxHeapify(h, largest);
+        }
+    }
     void delete(int [] h)
     {
         if(n==0)
@@ -86,7 +103,7 @@ public class Main {
         {
             System.out.println(h[1] + " is deleted successfully!");
             h[1] = h[n--];
-            constructHeap(h);
+            maxHeapify(h,1);
         }
     }
 
