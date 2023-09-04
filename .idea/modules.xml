@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Data Structures/Array/Array.iml" filepath="$PROJECT_DIR$/Data Structures/Array/Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Backward Graph/Backward Graph.iml" filepath="$PROJECT_DIR$/Backward Graph/Backward Graph.iml" />
       <module fileurl="file://$PROJECT_DIR$/Searching Algorithms/Binary Search/Binary Search.iml" filepath="$PROJECT_DIR$/Searching Algorithms/Binary Search/Binary Search.iml" />
       <module fileurl="file://$PROJECT_DIR$/Data Structures/Binary Search Tree/Binary Search Tree.iml" filepath="$PROJECT_DIR$/Data Structures/Binary Search Tree/Binary Search Tree.iml" />
       <module fileurl="file://$PROJECT_DIR$/Data Structures/Binary Tree/Binary Tree.iml" filepath="$PROJECT_DIR$/Data Structures/Binary Tree/Binary Tree.iml" />
@@ -20,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/Data Structures/Doubly Linked List/Doubly Linked List.iml" filepath="$PROJECT_DIR$/Data Structures/Doubly Linked List/Doubly Linked List.iml" />
       <module fileurl="file://$PROJECT_DIR$/Problems/Dynamic Knapsack/Dynamic Knapsack.iml" filepath="$PROJECT_DIR$/Problems/Dynamic Knapsack/Dynamic Knapsack.iml" />
       <module fileurl="file://$PROJECT_DIR$/Shortest Path Algorithms/Floyds/Floyds.iml" filepath="$PROJECT_DIR$/Shortest Path Algorithms/Floyds/Floyds.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Forward Approach/Forward Approach.iml" filepath="$PROJECT_DIR$/Forward Approach/Forward Approach.iml" />
       <module fileurl="file://$PROJECT_DIR$/Problems/Greedy Knapsack/Greedy Knapsack.iml" filepath="$PROJECT_DIR$/Problems/Greedy Knapsack/Greedy Knapsack.iml" />
       <module fileurl="file://$PROJECT_DIR$/Data Structures/Heap/Heap.iml" filepath="$PROJECT_DIR$/Data Structures/Heap/Heap.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sorting Algorithms/Heap Sort/Heap Sort.iml" filepath="$PROJECT_DIR$/Sorting Algorithms/Heap Sort/Heap Sort.iml" />
