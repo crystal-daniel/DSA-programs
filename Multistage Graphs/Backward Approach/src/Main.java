@@ -1,5 +1,5 @@
 public class Main {
-    void backwardGraph(int [][] c, int n, int k)
+    void backwardApproach(int [][] c, int n, int k)
     {
         int min;
         int [] cost = new int[n+1];
@@ -45,6 +45,6 @@ public class Main {
                 {0,0,0,0,0,0,0,0,0,0},
         };
         Main obj = new Main();
-        obj.backwardGraph(cost, n, stages);
+        obj.backwardApproach(cost, n, stages);
     }
 }
